@@ -6,7 +6,7 @@ const axios = require("axios");
 app.use("/", router);
 var url = "http://mock-api.com/9KOZMenk.mock/bersion";
 
-router.get("/ber", (req, res) => {
+router.get("/bersion", (req, res) => {
   axios
     .get(url)
     .then((response) => {
