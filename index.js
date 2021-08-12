@@ -6,7 +6,7 @@ const axios = require("axios");
 app.use("/", router);
 var url = "http://mock-api.com/onwlmeKN.mock/skidtrial";
 
-router.get("/nversion", (req, res) => {
+router.get("/ber", (req, res) => {
   axios
     .get(url)
     .then((response) => {
